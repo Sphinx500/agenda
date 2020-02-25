@@ -40,14 +40,26 @@
                     <th>Empresa</th>
                     <th>Telefono</th>
                     <th>Acciones</th>
+                
                 </tr>
             </thead>
+            
             <tbody>
+
             <td>Fer</td>
             <td>Kaysen</td>
             <td>12344567</td>
             <td>
-                <a href="#"></a>
+                
+                <a class="btn-editar btn" href="#">
+                    <!-- https://fontawesome.com/icons?d=gallery-->
+                <!--Icono de Font Awesome -->
+                <i class="fas fa-pen-square"></i>
+                </a>
+                <button data-id="1" type="button" class="btn-borrar btn">
+                    <!--Icono de Font Awesome -->
+                <i class="far fa-trash-alt"></i>
+                </button>
             </td>
             </tbody>
         </table>

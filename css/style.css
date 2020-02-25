@@ -6,6 +6,7 @@
     --fuentePrimaria: 'Arial', Helvetica, sans-serif;
     --fuenteSecundaria: font-family: 'Sigmar One', cursive;
     --primarioOscuro: rgb(156,10,69);
+    --buscador : #FADC20
 }
 
 html {
@@ -28,6 +29,9 @@ body {
 .bg-amarillo{
     background-color: var(--secundario);
 }
+.bg-blanco{
+background-color: white;
+}
 
 .sombra{
     border-radius: 15px 15px 15px 15px;
@@ -45,6 +49,13 @@ h1{
     padding: 20px;
     color: white;
 }
+
+h2{
+    font-size: 2rem;
+    color: var(--primario);
+
+}
+
 .contenedor-barra{
 background-color: var(--primarioOscuro);
 }
@@ -101,6 +112,7 @@ legend span{
 }
 
 .enviar{
+    padding-top: .5rem;
     display: flex;
     justify-content: flex-end;
 }
@@ -126,4 +138,70 @@ background-color: var(--primarioOscuro);
     .campo input[type="submit"]{
     flex: 0 0 auto;
     }
+}
+
+/** lista de contactos **/
+
+.contactos{
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.contenedor-contactos{
+    text-align: center;
+    align-content: center;
+    max-width: 1000px;
+    margin: 4rem 0 auto,
+}
+
+.buscador{
+    background-color: var(--buscador);
+    border: none ;
+    width: 75%;
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2rem;
+}
+
+table{
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+table thead{
+background-color: var(--primario);
+}
+
+table thead th{
+    padding: 1rem 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+table tbody td{
+    padding: .5rem;
+}
+/** lo aplica solo al td en especifico **/
+table tbody td:nth-child(4){
+text-align: center;
+}
+
+table button{
+background-color: transparent!important;
+border: none;
+}
+
+.btn{
+font-size: 2rem;
+text-decoration:none;
+}
+
+.btn-editar{
+color: var(--secundario);
+}
+
+.btn-borrar{
+color: var(--primario);
 }
