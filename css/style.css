@@ -154,6 +154,14 @@ background-color: var(--primarioOscuro);
     margin: 4rem 0 auto,
 }
 
+.total-contactos{
+    margin: 2rem 0;
+    text-align: center;
+    color: var(--primario);
+    font-size: 2rem;
+
+}
+
 .buscador{
     background-color: var(--buscador);
     border: none ;
@@ -163,6 +171,10 @@ background-color: var(--primarioOscuro);
     margin-right: auto;
     margin: 2rem;
 }
+.contenedor-tabla{
+    overflow: scroll;
+}
+
 
 table{
     width: 100%;
